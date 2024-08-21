@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "934774204967",
+    "project_id": "online-meeting-app-3836a",
+    "storage_bucket": "online-meeting-app-3836a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934774204967:android:bceb093e90c5038247fc02",
+        "android_client_info": {
+          "package_name": "com.example.zoom_clone_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934774204967-j6kit8e9ud5dq86j1l1tc29847fd12qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zoom_clone_app",
+            "certificate_hash": "1fc049f6d3b3477f1b849d9b73fab792d081790c"
+          }
+        },
+        {
+          "client_id": "934774204967-8l6qvdu0ioak5ih0mr32r5kutg2p7gv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRp_fajZlQxYj9whClmBDctntjVxb7n2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934774204967-8l6qvdu0ioak5ih0mr32r5kutg2p7gv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,14 +1,14 @@
-import "package:flutter/material.dart";
-import "package:zoom_clone_app/utils/colors.dart";
+import 'package:flutter/material.dart';
+import 'package:zoom_clone_app/utils/colors.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;
 
   const CustomButton({
-    super.key, 
-    required this.text, 
-    required this.onPressed
+    super.key,
+    required this.text,
+    required this.onPressed,
   });
 
   @override
@@ -16,7 +16,7 @@ class CustomButton extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(20),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: onPressed, // Use the provided onPressed callback
         style: ElevatedButton.styleFrom(
           backgroundColor: buttonColor,
           minimumSize: const Size(
@@ -25,8 +25,8 @@ class CustomButton extends StatelessWidget {
           ),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30),
-            side: const BorderSide(color: buttonColor),
-          )
+            side: BorderSide(color: buttonColor),
+          ),
         ),
         child: Text(
           text,
